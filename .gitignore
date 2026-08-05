@@ -1,0 +1,65 @@
+# ═══════════════════════════════════════════════
+#  Android 실습 모음 저장소 (public)
+#  루트 하나로 하위 프로젝트 전부 커버
+# ═══════════════════════════════════════════════
+
+# ───── 빌드 산출물 (용량의 99%) ─────
+build/
+.gradle/
+.cxx/
+.externalNativeBuild/
+captures/
+**/app/release/
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+*.jar
+!**/gradle/wrapper/gradle-wrapper.jar
+*.hprof
+.kotlin/
+
+# ───── IDE 설정 ─────
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# ───── 로컬 환경 (PC마다 다름 + 사용자명 노출) ─────
+local.properties
+
+# ───── 민감 정보 ─────
+google-services.json
+**/app/google-services.json
+*.jks
+*.keystore
+keystore.properties
+secrets.properties
+apikey.properties
+*.pem
+*.p12
+.env
+*.env
+
+# ───── 강의자료 / 문서 / 발표자료 (업로드 안 함) ─────
+*.pdf
+*.hwp
+*.hwpx
+*.pptx
+*.docx
+*.xlsx
+*.zip
+*.7z
+*.rar
+
+# ───── OS / 임시 ─────
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+*.tmp
+*.swp
+
+# ───── 저작권 (음원 파일 제외) ─────
+Android_Multimedia/app/src/main/res/raw/music.mp3
